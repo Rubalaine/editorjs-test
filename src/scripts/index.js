@@ -1,17 +1,10 @@
 import EditorJs from "@editorjs/editorjs";
 
-import { Engine } from "./Engine";
 import { printPDF } from "./pdfMake";
 const save = document.getElementById("save");
-// import Header from '@editorjs/header';
-// import List from '@editorjs/list';
 
 const editor = new EditorJs({
   holder: "editorjs",
-  // tools: {
-  //     header: Header,
-  //     list: List
-  //   },
 });
 if (save)
   save.addEventListener("click", (e) => {
