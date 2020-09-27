@@ -12,6 +12,7 @@
     "@editorjs/editorjs": "^2.18.0",
     "@editorjs/header": "^2.5.0",
     "@editorjs/list": "^1.5.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "pdfmake": "^0.1.68"
   }
 }
